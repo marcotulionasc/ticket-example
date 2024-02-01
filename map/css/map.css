@@ -1,0 +1,19 @@
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    margin: 5px;
+    border: 1px solid black;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f8f8; /* Adjust as needed */
+}
+
+.seat {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    border: 1px solid black;
+    border-radius: 50%; /* Makes the seats circular */
+    background-color: #e0e0e0; /* Adjust as needed */
+}
